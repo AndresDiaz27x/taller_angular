@@ -1,0 +1,6 @@
+<h2>Herramientas para el Pensamiento Computacional</h2>
+<div *ngFor="let herramienta of herramientas" class="card">
+    <h3>{{ herramienta.nombre }}</h3>
+    <p>{{ herramienta.descripcion }}</p>
+    <a [href]="herramienta.url" target="_blank">Visitar</a>
+</div>
